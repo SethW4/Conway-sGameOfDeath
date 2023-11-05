@@ -1,4 +1,4 @@
 #!/bin/bash
 
-gcc main.c -o game.o -Wall -Wextra -lncurses
+gcc mainGood.c -o game.o -Wall -Wextra -lncurses -lm
 ./game.o
